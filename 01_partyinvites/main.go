@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+// Rsvp An RSVP is a request for response to an invitation (from the French: répondez s'il vous plaît)
 type Rsvp struct {
 	Name, Email, Phone string
 	WillAttend         bool
